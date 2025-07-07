@@ -22,8 +22,8 @@ yarn add @plate-editor/react
 ### 基本用法
 
 ```tsx
-import React from 'react'
 import { PlateEditor } from '@plate-editor/react'
+import React from 'react'
 import '@plate-editor/react/styles'
 
 function App() {
@@ -41,9 +41,9 @@ export default App
 ### 自定义编辑器
 
 ```tsx
-import React from 'react'
+import { Editor, EditorContainer, EditorKit } from '@plate-editor/react'
 import { Plate } from 'platejs/react'
-import { EditorKit, Editor, EditorContainer } from '@plate-editor/react'
+import React from 'react'
 import '@plate-editor/react/styles'
 
 function CustomEditor() {

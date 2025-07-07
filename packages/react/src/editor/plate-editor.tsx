@@ -6,8 +6,6 @@ import * as React from 'react'
 import { Editor, EditorContainer } from '../ui/editor'
 import { EditorKit } from './editor-kit'
 
-import '../styles/main.css'
-
 export function PlateEditor(): React.JSX.Element {
   const editor = usePlateEditor({
     plugins: EditorKit,
@@ -22,7 +20,7 @@ export function PlateEditor(): React.JSX.Element {
   return (
     <Plate editor={editor}>
       <EditorContainer>
-        <Editor variant="demo" />
+        <Editor />
       </EditorContainer>
     </Plate>
   )

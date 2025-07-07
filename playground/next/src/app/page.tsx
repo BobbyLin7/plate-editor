@@ -1,8 +1,6 @@
 'use client'
 
 import { PlateEditor } from '@plate-editor/react'
-import '@plate-editor/react/styles'
-
 
 export default function Page() {
   return (
