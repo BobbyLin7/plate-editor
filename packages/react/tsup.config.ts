@@ -9,6 +9,15 @@ const config: Options = {
   },
   injectStyle: true,
   tsconfig: './tsconfig.build.json',
+  clean: true,
+  sourcemap: true,
+  splitting: false,
+  external: [
+    'react',
+    'react-dom',
+    'next',
+    'tailwindcss',
+  ],
 }
 
 export default defineConfig(config) as ReturnType<typeof defineConfig>

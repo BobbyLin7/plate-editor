@@ -4,7 +4,7 @@
     "composite": true,
     "target": "ES2020",
     "jsx": "react-jsx",
-    "lib": ["ESNext", "ESNext.AsyncIterable"],
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "moduleDetection": "force",
     "baseUrl": ".",
     "module": "preserve",

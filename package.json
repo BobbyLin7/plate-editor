@@ -8,8 +8,11 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "build": "turbo run build --filter=...",
-    "dev:react": ""
+    "build": "turbo run build --filter=.",
+    "build:css": "turbo run build:css --filter=.",
+    "dev": "turbo run dev --filter=@plate-editor/react --filter=next --parallel",
+    "dev:react": "turbo run dev --filter=@plate-editor/react",
+    "dev:next": "turbo run dev --filter=next"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.16.1",
